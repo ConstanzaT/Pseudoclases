@@ -1,0 +1,44 @@
+/*{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+ol>li{
+    color:blue;
+}
+ul>li{
+    color:red;
+}
+h1~p{
+    text-indent: 15px;
+}*/
+
+body{
+    box-shadow: 4px 1px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+/* section parrafos*/
+section#parrafos p:first-child{
+    border-top: 1px solid black;
+}
+section#parrafos p:last-child{
+    border-bottom: 1px solid black;
+}
+
+/* section lista 1 */
+section#list1 ol li:nth-child(odd){
+   text-decoration: line-through;
+}
+section#list1 ol li:nth-child(even){
+     text-decoration: underline;
+}
+
+/* section lista 2*/
+
+section#list2 ol li:nth-child(4n){
+    color:green;
+}
+
+p::before{
+    content:"-";
+}
